@@ -3,7 +3,7 @@ Geoinformatics Porject from Politecnico of Milan - Using Sentinel-2 for LCZ mapp
 
 This repository contains two distinct but interlinked codes. One is dedicated to the Model training and validation to produce LCZ maps while the other focus on model training and validation to produce class fraction maps with spectral unmixing.
 
-## CODENAME LCZ is structured as follow:
+## CODENAME LCZ is structured as follows:
 ### Training
 
 #### Set-Up
@@ -25,7 +25,7 @@ The classified image is visually inspected using custom color maps and LCZ-speci
 To quantitatively assess the classifier's generalization ability, the predicted LCZ labels are compared against the ground truth for each pixel in the testing set. Agreement metrics are computed and visualized using interactive confusion matrices. Per-class performance is also summarized in a tabular report, including detailed statistics on support, class-wise accuracy, and error patterns.
 This use case illustrates a robust pipeline for LCZ classification from Sentinel-2 imagery using supervised machine learning. The integration of ancillary layers and the use of preprocessing steps such as median filtering contribute to enhanced spatial coherence and improved classification accuracy. The workflow is designed to be scalable and modular, allowing for extension to other areas of interests and dates.
 
-## CODENAME SPECTRAL UNMIXING is structured as follow:
+## CODENAME SPECTRAL UNMIXING is structured as follows:
 
 ### Training
 
